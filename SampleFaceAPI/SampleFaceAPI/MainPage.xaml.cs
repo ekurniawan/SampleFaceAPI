@@ -14,6 +14,7 @@ namespace SampleFaceAPI
 {
 	public partial class MainPage : ContentPage
 	{
+        //menggunakan lib cognitive services
         private readonly IFaceServiceClient _faceServiceClient;
         ObservableCollection<Face> list = new ObservableCollection<Face>();
 
